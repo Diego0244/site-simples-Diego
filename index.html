@@ -19,7 +19,7 @@
             padding: 10px 20px;/*Definir o tamanho botão*/
             font-size: 16px;/*Define o tamanho da fonte do botão*/
             cursor: pointer; /* Altera o cursor ao passar sobre o botão */
-            background-color: blue (255, 0, 0); /* Define a cor de fundo do botão */
+            background-color: red (255, 0, 0); /* Define a cor de fundo do botão */
             color: white;/*definir a cor do texto do botão*/
             border:none;/*remove a borda do botão*/
             border-radius: 5px;/*adicionar cantos arrendodados ao botão*/
@@ -38,7 +38,9 @@
         //funcão javascript para mudar a cor de fundo da pagina
         function mudarCor()(
             //gerar uma cor aleatoria
-            var
+            var corAleatoria = `#` + math. floor(math.random()*1677215).toString(16);
+            // Aplicar a nova cor de fundo da pagina
+            document.body.style.backgroundColor=corAleatoria;
         )
     </script>
         // Função JavaScript para mudar a cor de fundo da página
